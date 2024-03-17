@@ -147,6 +147,9 @@ public class MissingWord {
             if (!isExists.get(i)){
                 theWord = wordlist[i];
             }
+            else{
+                theWord = "NONE";
+            }
         }
 
 
